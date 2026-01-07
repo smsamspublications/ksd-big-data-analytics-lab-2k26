@@ -68,8 +68,11 @@ git push origin main
 These are the core git commands used in the repository setup:
 
 ```bash
-# Add origin remote (already configured)
-git remote add origin https://github.com/sudhamtech/big-data-analytics-lab.git
+# Add origin remote (already configured as the main repository)
+git remote add origin https://github.com/smsamspublications/ksd-big-data-analytics-lab-2k26.git
+
+# Add upstream remote for template repository
+git remote add upstream https://github.com/sudhamtech/big-data-analytics-lab.git
 
 # Rename/create main branch
 git branch -M main
